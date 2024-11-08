@@ -1,7 +1,9 @@
+// ./src/index.js
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './style.css'; // Подключение CSS стилей
+import './style.css';
 
 ReactDOM.render(
   <React.StrictMode>

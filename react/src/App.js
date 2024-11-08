@@ -1,4 +1,4 @@
-// src/App.js
+// ./src/App.js
 import React from "react";
 import Header from "./components/Header";
 import Article from "./components/Article";
