@@ -1,0 +1,129 @@
+/* General styles */
+html {
+    border-left: 5px solid lightgray; /* Adds a light gray left border */
+}
+
+body {
+    font-family: sans-serif; /* Sets the font to sans-serif */
+    min-height: 100vh; /* Ensures body height is at least the viewport height */
+    max-width: 1000px; /* Limits the page width to 1000px */
+    margin: 0 auto; /* Centers the content on the page */
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Spacing for main sections */
+header, main, footer {
+    padding: 1rem 2rem; /* Adds padding to fix margin collapse */
+}
+
+/* Header title styles */
+header h1 {
+    color: #df4339; /* Sets the main title color */
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0; /* Removes top margin */
+}
+
+/* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: space-between; /* Evenly spreads items */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    margin: 0 0px;
+}
+
+nav ul li a {
+    text-decoration: underline; /* Adds underline to navigation links */
+    color: gray; /* Changes color to gray */
+}
+
+/* Styles for main navigation links */
+header nav ul li a {
+    color: gray;
+}
+
+/* Styles for footer navigation links */
+footer nav ul li a {
+    color: tomato;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Styles for articles */
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article time {
+    font-size: 1.3rem; /* Increases the font size for the date */
+    color: #808080;
+}
+
+article h2 {
+    font-size: 2rem; /* Increases the font size for article titles */
+    color: #333;
+    margin: 0; /* Removes top margin */
+}
+
+article img {
+    width: 100%; /* Ensures images are 100% width */
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Styles for paragraphs within articles */
+article p {
+    text-align: justify;
+    color:#333;
+}
+
+article p::first-letter {
+    font-size: 8rem; /* Creates a large drop cap */
+    color: darkgrey;
+    float: left;
+    line-height: 1;
+    padding-right: 5px;
+}
+
+/* Styles for 'Continues ...' link */
+.continue {
+    display: block;
+    color: tomato;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 32px;
+    padding-top: 0px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: darkgrey;
+    text-align: left;
+}
